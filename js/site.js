@@ -32,6 +32,6 @@ $(function () {
       $('.box').html('<h1>' + currentTime + '</h1>');
     }
 
-    $('button').on('click', showTime);
+    $('#time').on('click', showTime);
 
 });
